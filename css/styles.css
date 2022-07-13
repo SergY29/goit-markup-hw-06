@@ -138,7 +138,7 @@ button {
 
   transition-property: color;
   transition-duration: 250ms;
-  animation-timing-function: linearcubic-bezier(0.4, 0, 0.2, 1);
+  animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .site-nav .link.current {
@@ -197,7 +197,7 @@ button {
 
   transition-property: color;
   transition-duration: 250ms;
-  animation-timing-function: linearcubic-bezier(0.4, 0, 0.2, 1);
+  animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header-contact .contact:hover,
@@ -265,7 +265,7 @@ button {
 
   transition-duration: 250ms;
   transition-property: fill;
-  animation-timing-function: linearcubic-bezier(0.4, 0, 0.2, 1);
+  animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .button-close {
@@ -293,7 +293,7 @@ button {
 
     transition-duration: 250ms;
     transition-property: background-color;
-    animation-timing-function: linearcubic-bezier(0.4, 0, 0.2, 1);
+    animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .button.heroes:hover,
@@ -316,7 +316,7 @@ button {
 
   transition-duration: 250ms;
   transition-property: background-color, color, box-shadow;
-  animation-timing-function: linearcubic-bezier(0.4, 0, 0.2, 1);
+  animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .button.portfolio:hover,
@@ -492,7 +492,7 @@ button {
 
     transition-duration: 250ms;
       transition-property: transform;
-      animation-timing-function: linearcubic-bezier(0.4, 0, 0.2, 1);
+      animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .overlay-text{
@@ -519,7 +519,7 @@ button {
 .example .item{
   transition-duration: 250ms;
   transition-property: box-shadow;
-  animation-timing-function: linearcubic-bezier(0.4, 0, 0.2, 1);
+  animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .example .item:hover {
@@ -586,7 +586,7 @@ button {
 
   transition-duration: 250ms;
   transition-property: background-color, fill;
-  animation-timing-function: linearcubic-bezier(0.4, 0, 0.2, 1);
+  animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .item .icon-team:hover,
@@ -641,7 +641,7 @@ button {
 
   transition-duration: 250ms;
   transition-property: color;
-  animation-timing-function: linearcubic-bezier(0.4, 0, 0.2, 1);
+  animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .footer-contact:hover,
 .footer-contact:focus {
@@ -694,7 +694,7 @@ button {
 
   transition-duration: 250ms;
     transition-property: background-color;
-    animation-timing-function: linearcubic-bezier(0.4, 0, 0.2, 1);
+    animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .item .icon-footer:hover,
@@ -767,7 +767,7 @@ button {
   
   transition-duration: 250ms;
   transition-property: background-color;
-  animation-timing-function: linearcubic-bezier(0.4, 0, 0.2, 1);
+  animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .button.email-footer:hover,
@@ -819,7 +819,7 @@ button {
 
   transition-duration: 250ms;
     transition-property: fill, border;
-    animation-timing-function: linearcubic-bezier(0.4, 0, 0.2, 1);
+    animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .client-web:hover,
@@ -899,10 +899,6 @@ button {
   margin-top: 10px;
 }
 
-.user-container{
-      
-}
-
 .user-container input{
   width: 100%;
   padding: 11px 42px;
@@ -915,8 +911,8 @@ button {
     border-radius: 4px;
 
   transition-duration: 250ms;
-  transition-property:  border-color;
-  animation-timing-function: linearcubic-bezier(0.4, 0, 0.2, 1);
+  transition-property:  border;
+  animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .user-container input:active,
@@ -928,7 +924,7 @@ button {
 
 .user-container:focus,
  .user-container:hover input{
-    border-color: var(--accent-color);
+    border: 1px solid var(--accent-color);
     cursor: pointer;
 }
 
@@ -973,5 +969,5 @@ button {
 
   transition-duration: 250ms;
     transition-property: fill;
-    animation-timing-function: linearcubic-bezier(0.4, 0, 0.2, 1);
+    animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
