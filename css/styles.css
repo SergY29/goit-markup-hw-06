@@ -917,25 +917,27 @@ button {
   animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.user-container input:active,
-.user-container input:hover,
 .user-container input:focus {
   outline: 0;
   outline-offset: 0;
-}
-
-.user-container:focus,
- .user-container:hover input{
-    border: 1px solid var(--accent-color);
+  border: 1px solid var(--accent-color);
     cursor: pointer;
 }
 
-.user-container:focus,
- .user-container:hover svg{
+.user-container input:focus ~ .user-svg{
   cursor: pointer;
   fill: var(--accent-color);
  }
 
+.user-container:hover input{
+  cursor: pointer;
+}
+
+.user-container:hover .user-svg{
+  cursor: pointer;
+}
+
+ 
 .user-item{
   display: inline-block;
   margin-bottom: 4px;
