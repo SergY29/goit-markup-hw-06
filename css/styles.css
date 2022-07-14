@@ -611,6 +611,7 @@ button {
   display: flex;
 }
 
+
 .footer-company{
   max-width: 231px;
 }
@@ -706,7 +707,8 @@ button {
 /* Footer-form */
 
 .join{
-  margin-left: 93px;
+  max-width: 570px;
+  margin-left: auto;
 }
 
 .footer-form{
