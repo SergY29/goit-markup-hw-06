@@ -929,13 +929,13 @@ button {
   fill: var(--accent-color);
  }
 
-.user-container:hover input{
+/* .user-container:hover input{
   cursor: pointer;
 }
 
 .user-container:hover .user-svg{
   cursor: pointer;
-}
+} */
 
  
 .user-item{
