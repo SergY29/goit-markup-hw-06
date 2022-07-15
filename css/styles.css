@@ -1023,6 +1023,7 @@ button {
 
   border: 2px solid var(--primary-text-color);
   border-radius: 2px;
+  cursor: pointer;
 
     transition-duration: 250ms;
       transition-property: background-color;
