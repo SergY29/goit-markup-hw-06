@@ -942,7 +942,7 @@ button {
 .user-item.textarea{
   padding: 12px 16px;
   resize: none;
-  height: 138px;
+  height: 120px;
 }
 
 .user-input textarea::placeholder{
